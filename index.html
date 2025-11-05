@@ -90,7 +90,7 @@
 
   <script>
     const username = 'CoolToads';
-    const excludeList = ['Transmissions', 'C00L‑bookmarks', 'bookmark', '-perm-shutdown-', '-perm-retired-']; <! -- if you are reading this--- i exclude these because i dont do those. -->
+    const excludeList = ['Transmissions', 'C00L‑bookmarks', 'bookmark', '-perm-shutdown-', '-perm-retired-'];
     const reposContainer = document.getElementById('repos');
 
     fetch(`https://api.github.com/users/${username}/repos?sort=updated`)
